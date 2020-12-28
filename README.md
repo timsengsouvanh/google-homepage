@@ -1,1 +1,2 @@
-Finally fucking got this Git shit to work. Thank fuck. Ok. So, after making this google homepage I hope I will be somewhat competent when it comes to HTML and CSS. Let's see how we go. Ganbarimasu.
+Finally fucking got this Git shit to work. Thank fuck. Ok. So, after making this google homepage I hope I will be somewhat competent when it comes to HTML and CSS. Let's see how we go. Ganbarimasu. 
+I'll try again haha.

@@ -58,6 +58,10 @@ main {
     font-size: 15px;
 }
 
+.search-box:hover {
+    box-shadow: 0 1px 6px rgba(32,33,36,.2);
+}
+
 .search-container {
     position: relative;
     width: 100%;
@@ -73,9 +77,43 @@ main {
     margin-left: 545px;
     top: -3px;
     height: 3vh;
+    cursor: pointer;
 }
 
 .iconleft {
     margin-left: 20px;
     opacity: .5;
+}
+
+.buttons {
+    margin-top: 25px;
+    text-align: center;
+}
+
+.btn {
+    height: 35px;
+    width: 140px;
+    border-style: none;
+    border-radius: 5px;
+    margin: 4px;
+    background-color: rgb(247, 247, 247);
+    cursor: pointer;
+}
+
+.btn:hover {
+    box-shadow: 0 1px 1px rgba(0,0,0,0.1);
+    border: 1px solid #dadce0;
+}
+
+.languageoffer {
+    margin-top: 30px;
+
+}
+
+#language {
+    color: #0000EE; 
+}
+
+#language:visited {
+    color: #551A8B
 }

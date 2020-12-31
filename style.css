@@ -1,3 +1,8 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+}
+
 .wrapper {
     margin: 0 auto;
     display: flex;
@@ -7,12 +12,31 @@
 li, a {
     text-decoration: none;
     list-style-type: none;
-    padding-right: 15px;
+    padding-right: 11px;
+    color: black;
 }
+
 
 .topright {
     display: flex;
     justify-content: flex-end;
+    align-items: center;
+    overflow: hidden;
+    height: 100%;
+    margin-right: 10px;
+}
+
+
+
+.gridicon {
+    height: 2.5vh;
+    opacity: .6;
+    padding: 3px 5px 0px 0px;
+}
+
+.profileicon {
+    height: 5vh;
+    border-radius: 50%;
 }
 
 main {
@@ -21,23 +45,23 @@ main {
     align-content: center;
     flex-direction: column;
     text-align: center;
-    margin-top: 30px;
+    margin-top: 50px;
 }
 
 .search-box {
-    width: 420px;
+    width: 530px;
     height: 40px;
     border-radius: 24px;
-    border: 1px solid rgb(185, 185, 185);
+    border: 1px solid rgb(221, 221, 221);
     outline: none;
-    padding-left: 40px;
+    padding-left: 50px;
     font-size: 15px;
 }
 
 .search-container {
     position: relative;
     width: 100%;
-    margin-top: 30px;
+    margin-top: 60px;
 }
 
 .iconright, .iconleft {
@@ -46,9 +70,12 @@ main {
 }
 
 .iconright {
-    margin-left: 430px;
+    margin-left: 545px;
+    top: -3px;
+    height: 3vh;
 }
 
 .iconleft {
     margin-left: 20px;
+    opacity: .5;
 }

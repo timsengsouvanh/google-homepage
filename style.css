@@ -9,6 +9,11 @@
     flex-direction: column;
 }
 
+body, html {
+    margin: 0;
+    height: 100vh;
+}
+
 li, a {
     text-decoration: none;
     list-style-type: none;
@@ -116,4 +121,31 @@ main {
 
 #language:visited {
     color: #551A8B
+}
+
+footer {
+    position: absolute;
+
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(233, 233, 233);
+}
+
+.location {
+    padding: 15px;
+    border-top: 1px solid #dadce0
+}
+
+.bottomline {
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+    padding: 15px;
+    border-top: 1px solid #dadce0
+}
+
+.location, #bottomleft, #bottomright {
+    font-size: 14px;
+    color: #70757a;
+    
 }
